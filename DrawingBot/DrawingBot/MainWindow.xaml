@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DrawingBot"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="300" Background="{DynamicResource BackgroundColor}" Topmost="True">
+        Title="MainWindow" Height="300" Width="300" Background="{DynamicResource BackgroundColor}" Topmost="True" ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
