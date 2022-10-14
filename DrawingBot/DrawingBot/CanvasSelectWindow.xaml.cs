@@ -40,7 +40,7 @@ namespace DrawingBot
             this.Top = 0;
             this.AllowsTransparency = true;
             this.Opacity = 0.1;
-            this.Background = new SolidColorBrush(Colors.Red);
+            this.Background = new SolidColorBrush(Colors.LightGray);
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
@@ -57,7 +57,35 @@ namespace DrawingBot
                 Debug.WriteLine("mouse is down " + DateTime.Now);
             }
             Point bR = GetCursorPosition();
-            canvas = new Rectangle(tL.X, tL.Y, bR.X, bR.Y);
+
+            int x;
+            int y;
+            int width;
+            int height;
+
+            if (bR.X >= tL.X)
+            {
+                x = tL.X;
+                width = bR.X - tL.X;
+            }
+            else
+            {
+                x = bR.X;
+                width = tL.X - bR.X;
+            }                
+
+            if (bR.Y >= tL.Y)
+            {
+                y = tL.Y;
+                height = bR.Y - tL.Y;
+            }
+            else
+            {
+                y = bR.Y;
+                height = tL.Y - bR.Y;
+            }
+
+            canvas = new Rectangle(x, y, width, height);
 
             _canvas = canvas;
 

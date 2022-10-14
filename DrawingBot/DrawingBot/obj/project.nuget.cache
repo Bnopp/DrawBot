@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "t0qsexyNA0AP9EBcN5HUihP0tBQCTXbPIhkPk3rHrR0LuxxKq8g5XWa16nMgq0dGx+vf+9CLZnk99Qa7wy6e4A==",
+  "dgSpecHash": "+3PdgK7zUQEKm2cR/q2rH5W9W89DB2d5ZUIOSswX08F9rfvM441pQf3O9nEwcquoS51yhbywS7+Lubc+Fvqn0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\pl03jlu\\Documents\\GitHub\\DrawBot\\DrawingBot\\DrawingBot\\DrawingBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pl03jlu\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
-    "C:\\Users\\pl03jlu\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+    "C:\\Users\\pl03jlu\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\pl03jlu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }

@@ -19,14 +19,16 @@ namespace DrawingBot
     /// </summary>
     public partial class Showimage : Window
     {
-        public Showimage(Image img, int X, int Y)
+        public Showimage(Image img, int X, int Y, int width, int height)
         {
             InitializeComponent();
 
-            this.Width = img.Width;
-            this.Height = img.Height;
+            this.Width = width;
+            this.Height = height;
             this.Top = Y;
             this.Left = X;
+            this.ShowInTaskbar = false;
+            this.Topmost = true;
             this.AddChild(img);
         }
     }

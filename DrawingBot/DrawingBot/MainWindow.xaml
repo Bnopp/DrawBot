@@ -5,8 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DrawingBot"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="300" Background="{DynamicResource BackgroundColor}" Topmost="True"
-        MouseMove="Window_MouseMove">
+        Title="MainWindow" Height="300" Width="300" Background="{DynamicResource BackgroundColor}" Topmost="True">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -35,10 +34,13 @@
         </Grid>
 
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
-            <Button x:Name="btnSelectCanvas" Width="100" Height="30" 
-                    Content="Select Canvas"
+            <Button x:Name="btnSelectCanvas" Width="75" Height="30" 
+                    Content="Drawing Area"
                     Click="btnSelectCanvas_Click"/>
-            <Button x:Name="btnDraw" Width="100" Height="30" Margin="20,0,0,0"
+            <Button x:Name="btnSelectColors" Width="75" Height="30" Margin="10,0,0,0"
+                    Content="Colors Area"
+                    Click="btnSelectColors_Click"/>
+            <Button x:Name="btnDraw" Width="75" Height="30" Margin="10,0,0,0"
                     Content="Start Drawing"
                     Click="btnDraw_Click"/>
         </StackPanel>

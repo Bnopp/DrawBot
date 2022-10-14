@@ -3,7 +3,6 @@ C:\Users\pl03jlu\Documents\GitHub\DrawBot\DrawingBot\DrawingBot\bin\Debug\net5.0
 C:\Users\pl03jlu\Documents\GitHub\DrawBot\DrawingBot\DrawingBot\bin\Debug\net5.0-windows\DrawingBot.runtimeconfig.json
 C:\Users\pl03jlu\Documents\GitHub\DrawBot\DrawingBot\DrawingBot\bin\Debug\net5.0-windows\DrawingBot.runtimeconfig.dev.json
 C:\Users\pl03jlu\Documents\GitHub\DrawBot\DrawingBot\DrawingBot\bin\Debug\net5.0-windows\DrawingBot.dll
-C:\Users\pl03jlu\Documents\GitHub\DrawBot\DrawingBot\DrawingBot\bin\Debug\net5.0-windows\ref\DrawingBot.dll
 C:\Users\pl03jlu\Documents\GitHub\DrawBot\DrawingBot\DrawingBot\bin\Debug\net5.0-windows\DrawingBot.pdb
 C:\Users\pl03jlu\Documents\GitHub\DrawBot\DrawingBot\DrawingBot\bin\Debug\net5.0-windows\Microsoft.Win32.SystemEvents.dll
 C:\Users\pl03jlu\Documents\GitHub\DrawBot\DrawingBot\DrawingBot\bin\Debug\net5.0-windows\System.Drawing.Common.dll
@@ -31,3 +30,4 @@ C:\Users\pl03jlu\Documents\GitHub\DrawBot\DrawingBot\DrawingBot\obj\Debug\net5.0
 C:\Users\pl03jlu\Documents\GitHub\DrawBot\DrawingBot\DrawingBot\obj\Debug\net5.0-windows\CanvasSelectWindow.baml
 C:\Users\pl03jlu\Documents\GitHub\DrawBot\DrawingBot\DrawingBot\obj\Debug\net5.0-windows\Showimage.g.cs
 C:\Users\pl03jlu\Documents\GitHub\DrawBot\DrawingBot\DrawingBot\obj\Debug\net5.0-windows\Showimage.baml
+C:\Users\pl03jlu\Documents\GitHub\DrawBot\DrawingBot\DrawingBot\obj\Debug\net5.0-windows\refint\DrawingBot.dll
